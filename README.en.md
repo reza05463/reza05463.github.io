@@ -46,6 +46,3 @@ Use my existing repository, **`reza05463.github.io`**. **Reza.Ranjbar** is the d
 2. In **Settings → Pages**, select **Deploy from a branch**, **main**, and **/(root)**.
 3. Save and check the deployment, then visit the English page, Persian page and first-website archive.
 
-## Credits
-
-The Linux huge-pages study was joint work with Mohammadreza Omidian. My chess presentation reviews Saleh Alwer's research; its experimental results belong to the paper's author. MATLAB image-source details are recorded in that project's repository. The Story Library diagram illustrates its relationships; it is not an application screenshot.
