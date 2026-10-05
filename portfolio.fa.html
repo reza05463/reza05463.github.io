@@ -1,116 +1,251 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="نمونه‌کارها — Reza.Ranjbar. وب‌سایت شخصی و پروژه‌های دانشگاهی من.">
-        <title>نمونه‌کارها | Reza.Ranjbar</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-        <link rel="alternate" hreflang="en" href="portfolio.html">
-        <link rel="alternate" hreflang="fa" href="portfolio.fa.html">
-    </head>
-    <body>
-        <a class="skip" href="#main">رفتن به محتوا</a>
-        <!-- The same five-page navigation appears on every page. -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="نمونه‌کارها — Reza.Ranjbar. وب‌سایت شخصی و پروژه‌های دانشگاهی من."
+    />
+    <title>نمونه‌کارها | Reza.Ranjbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" hreflang="en" href="portfolio.html" />
+    <link rel="alternate" hreflang="fa" href="portfolio.fa.html" />
+  </head>
+  <body>
+    <a class="skip" href="#main">رفتن به محتوا</a>
+    <!-- The same five-page navigation appears on every page. -->
     <header>
-            <div class="header-top">
-                <a class="brand" href="fa.html" dir="ltr">Reza<span>.</span>Ranjbar</a>
-                <a class="language" href="portfolio.html" lang="en" hreflang="en">English</a>
-            </div>
-            <nav aria-label="منوی اصلی">
-                <ul>
-                    <li><a href="fa.html" class="nav-btn">صفحه اصلی</a></li>
-                    <li><a href="about.fa.html" class="nav-btn">درباره من</a></li>
-                    <li><a href="skills.fa.html" class="nav-btn">مهارت‌ها</a></li>
-                    <li><a href="portfolio.fa.html" class="nav-btn active" aria-current="page">نمونه‌کارها</a></li>
-                    <li><a href="contact.fa.html" class="nav-btn">تماس</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!-- Edit this page's content here. -->
+      <div class="header-top">
+        <a class="brand" href="fa.html" dir="ltr">Reza<span>.</span>Ranjbar</a>
+        <a class="language" href="portfolio.html" lang="en" hreflang="en"
+          >English</a
+        >
+      </div>
+      <nav aria-label="منوی اصلی">
+        <ul>
+          <li><a href="fa.html" class="nav-btn">صفحه اصلی</a></li>
+          <li><a href="about.fa.html" class="nav-btn">درباره من</a></li>
+          <li><a href="skills.fa.html" class="nav-btn">مهارت‌ها</a></li>
+          <li>
+            <a
+              href="portfolio.fa.html"
+              class="nav-btn active"
+              aria-current="page"
+              >نمونه‌کارها</a
+            >
+          </li>
+          <li><a href="contact.fa.html" class="nav-btn">تماس</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Edit this page's content here. -->
     <main id="main">
-            <section id="projects" class="wrap section" aria-labelledby="page-title">
-                <div class="section-heading">
-                    <div>
-                        <h1 id="page-title">پروژه‌های منتخب</h1>
-                    </div>
-                    <p>کد، مثال و یادداشت از کارهای دانشگاهی‌ام.</p>
-                </div>
-                <article class="featured card">
-                    <div class="project-image">
-                        <img src="assets/laplacian.png" alt="تصویر اصلی ماه، پاسخ لاپلاسین و تصویر واضح‌شده" width="1800" height="600">
-                        <img src="assets/difference.png" alt="دو تصویر مغز از تمرین دانشگاهی و اختلاف مطلق پیکسل‌های آن‌ها" width="1800" height="600" loading="lazy">
-                    </div>
-                    <div class="project-copy">
-                        <p class="eyebrow">MATLAB</p>
-                        <h3>پردازش تصویر با متلب</h3>
-                        <p>روی دو تمرین کار کردم: مقایسه تصاویر خاکستری و واضح‌سازی تصویر با فیلتر لاپلاسین. توابع، تصاویر ورودی و دمویی که نتایج را دوباره تولید می‌کند، در مخزن قرار دارند.</p>
-                        <ul class="tags">
-                            <li>MATLAB</li>
-                            <li>Image Processing Toolbox</li>
-                        </ul>
-                        <p class="evidence">اختلاف پیکسل‌ها، تغییر شدت تصویر را نشان می‌دهد. این تمرین برای تشخیص بیماری نیست.</p>
-                        <a class="project-link" href="https://github.com/reza05463/matlab-image-processing">دیدن پروژه ↗</a>
-                    </div>
-                </article>
-                <div class="project-grid">
-                    <article class="card small-card">
-                        <p class="eyebrow">PHP + MYSQL</p>
-                        <h3>کتابخانه داستان</h3>
-                        <div class="schema">
-                            <span>کاربران</span>
-                            <b aria-hidden="true">↔</b>
-                            <span>داستان‌ها</span>
-                            <b aria-hidden="true">↔</b>
-                            <span>دسته‌بندی‌ها</span>
-                        </div>
-                        <p>یک کتابخانه داستان فارسی با PHP و MySQL ساختم. حساب کاربری، داستان‌ها، دسته‌بندی‌ها و نظارت مدیر در این پروژه کنار هم قرار گرفته‌اند و اطلاعات در یک پایگاه داده رابطه‌ای نگهداری می‌شوند.</p>
-                        <p class="evidence">پروژه‌ای دانشگاهی برای اجرای محلی، همراه با راه‌اندازی و آزمون‌های یکپارچه‌سازی.</p>
-                        <a class="project-link" href="https://github.com/reza05463/story-library">دیدن پروژه ↗</a>
-                    </article>
-                    <article class="card small-card">
-                        <p class="eyebrow">CPN TOOLS</p>
-                        <h3>مدل چراغ راهنمایی</h3>
-                        <div class="states" dir="ltr">
-                            <span>Red</span>
-                            <b aria-hidden="true">→</b>
-                            <span>Green</span>
-                            <b aria-hidden="true">→</b>
-                            <span>Yellow</span>
-                        </div>
-                        <p>این مدل شبکه پتری زمان‌دار را با CPN Tools شروع کردم تا وضعیت‌ها و زمان‌بندی را بررسی کنم. فایل اصلی را نگه داشته‌ام و بخش‌هایی را که هنوز نیاز به کار دارند توضیح داده‌ام.</p>
-                        <p class="evidence">در حال تکمیل: شبیه‌سازی و بررسی سبز نشدن هم‌زمان مسیرهای متقاطع هنوز تأیید نشده‌اند.</p>
-                        <a class="project-link" href="https://github.com/reza05463/traffic-light-model">دیدن پروژه ↗</a>
-                    </article>
-                </div>
-            </section>
-            <section id="studies" class="wrap section" aria-labelledby="studies-title">
-                <h2 id="studies-title">یادداشت‌های مطالعاتی</h2>
-                <p>سیزده موضوعی که در دانشگاه مطالعه و ارائه کردم، به فارسی و انگلیسی.</p>
-                <p>نسخه PDF اصلی ارائه‌ها و گزارش‌ها را هم در <a href="https://github.com/reza05463/engineering-study-notes/tree/main/pdfs">پوشه PDFها</a> گذاشته‌ام.</p>
-                <ul class="notes-list">
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/office-network.fa.md">شبکه دفتر ۲۰۰ مترمربعی</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/two-floor-network.fa.md">طراحی شبکه ساختمان دوطبقه</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/software-modelling.fa.md">نمودارهای ERD، DFD و حالت</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/software-testing.fa.md">آزمون جعبه‌سیاه و جعبه‌سفید</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/object-oriented-design.fa.md">طراحی شیءگرا</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/ruby-overview.fa.md">آشنایی با Ruby</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/raspberry-pi.fa.md">رزبری پای</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/zigbee.fa.md">شبکه‌های حسگر زیگبی</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/gyroscopes.fa.md">فناوری‌های ژیروسکوپ</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/huge-pages.fa.md">صفحات بزرگ حافظه در لینوکس</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/chess-gnn-review.fa.md">شبکه‌های عصبی گرافی برای شطرنج</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/ethernet-switching.fa.md">ارسال فریم در اترنت</a></li>
-                    <li><a href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/android-emulation.fa.md">شبیه‌ساز اندروید</a></li>
-                </ul>
-                <p class="credit">گزارش صفحات بزرگ حافظه در لینوکس را همراه محمدرضا امیدیان تهیه کردم. ارائه شطرنج من مرور مقاله Saleh Alwer است و نتایج آزمایش‌ها به نویسنده مقاله تعلق دارند.</p>
-            </section>
-        </main>
-        <footer>
-            <p dir="ltr">Reza.Ranjbar · HTML &amp; CSS</p>
-            <a href="first-website/index.html">نسخه اول وب‌سایت</a>
-            <a class="language" href="portfolio.html" lang="en" hreflang="en">English</a>
-        </footer>
-    </body>
+      <section id="projects" class="wrap section" aria-labelledby="page-title">
+        <div class="section-heading">
+          <div>
+            <h1 id="page-title">پروژه‌های منتخب</h1>
+          </div>
+          <p>کد، مثال و یادداشت از کارهای دانشگاهی‌ام.</p>
+        </div>
+        <article class="featured card">
+          <div class="project-image">
+            <img
+              src="assets/laplacian.png"
+              alt="تصویر اصلی ماه، پاسخ لاپلاسین و تصویر واضح‌شده"
+              width="1800"
+              height="600"
+            />
+            <img
+              src="assets/difference.png"
+              alt="دو تصویر مغز از تمرین دانشگاهی و اختلاف مطلق پیکسل‌های آن‌ها"
+              width="1800"
+              height="600"
+              loading="lazy"
+            />
+          </div>
+          <div class="project-copy">
+            <p class="eyebrow">MATLAB</p>
+            <h3>پردازش تصویر با متلب</h3>
+            <p>
+              روی دو تمرین کار کردم: مقایسه تصاویر خاکستری و واضح‌سازی تصویر با
+              فیلتر لاپلاسین. توابع، تصاویر ورودی و دمویی که نتایج را دوباره
+              تولید می‌کند، در مخزن قرار دارند.
+            </p>
+            <ul class="tags">
+              <li>MATLAB</li>
+              <li>Image Processing Toolbox</li>
+            </ul>
+            <p class="evidence">
+              اختلاف پیکسل‌ها، تغییر شدت تصویر را نشان می‌دهد. این تمرین برای
+              تشخیص بیماری نیست.
+            </p>
+            <a
+              class="project-link"
+              href="https://github.com/reza05463/matlab-image-processing"
+              >دیدن پروژه ↗</a
+            >
+          </div>
+        </article>
+        <div class="project-grid">
+          <article class="card small-card">
+            <p class="eyebrow">PHP + MYSQL</p>
+            <h3>کتابخانه داستان</h3>
+            <div class="schema">
+              <span>کاربران</span>
+              <b aria-hidden="true">↔</b>
+              <span>داستان‌ها</span>
+              <b aria-hidden="true">↔</b>
+              <span>دسته‌بندی‌ها</span>
+            </div>
+            <p>
+              یک کتابخانه داستان فارسی با PHP و MySQL ساختم. حساب کاربری،
+              داستان‌ها، دسته‌بندی‌ها و نظارت مدیر در این پروژه کنار هم قرار
+              گرفته‌اند و اطلاعات در یک پایگاه داده رابطه‌ای نگهداری می‌شوند.
+            </p>
+            <p class="evidence">
+              پروژه‌ای دانشگاهی برای اجرای محلی، همراه با راه‌اندازی و آزمون‌های
+              یکپارچه‌سازی.
+            </p>
+            <a
+              class="project-link"
+              href="https://github.com/reza05463/story-library"
+              >دیدن پروژه ↗</a
+            >
+          </article>
+          <article class="card small-card">
+            <p class="eyebrow">CPN TOOLS</p>
+            <h3>مدل چراغ راهنمایی</h3>
+            <div class="states" dir="ltr">
+              <span>Red</span>
+              <b aria-hidden="true">→</b>
+              <span>Green</span>
+              <b aria-hidden="true">→</b>
+              <span>Yellow</span>
+            </div>
+            <p>
+              این مدل شبکه پتری زمان‌دار را با CPN Tools شروع کردم تا وضعیت‌ها و
+              زمان‌بندی را بررسی کنم. فایل اصلی را نگه داشته‌ام و بخش‌هایی را که
+              هنوز نیاز به کار دارند توضیح داده‌ام.
+            </p>
+            <p class="evidence">
+              در حال تکمیل: شبیه‌سازی و بررسی سبز نشدن هم‌زمان مسیرهای متقاطع
+              هنوز تأیید نشده‌اند.
+            </p>
+            <a
+              class="project-link"
+              href="https://github.com/reza05463/traffic-light-model"
+              >دیدن پروژه ↗</a
+            >
+          </article>
+        </div>
+      </section>
+      <section
+        id="studies"
+        class="wrap section"
+        aria-labelledby="studies-title"
+      >
+        <h2 id="studies-title">یادداشت‌های مطالعاتی</h2>
+        <p>
+          سیزده موضوعی که در دانشگاه مطالعه و ارائه کردم، به فارسی و انگلیسی.
+        </p>
+        <p>
+          نسخه PDF اصلی ارائه‌ها و گزارش‌ها را هم در
+          <a
+            href="https://github.com/reza05463/engineering-study-notes/tree/main/pdfs"
+            >پوشه PDFها</a
+          >
+          گذاشته‌ام.
+        </p>
+        <ul class="notes-list">
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/office-network.fa.md"
+              >شبکه دفتر ۲۰۰ مترمربعی</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/two-floor-network.fa.md"
+              >طراحی شبکه ساختمان دوطبقه</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/software-modelling.fa.md"
+              >نمودارهای ERD، DFD و حالت</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/software-testing.fa.md"
+              >آزمون جعبه‌سیاه و جعبه‌سفید</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/object-oriented-design.fa.md"
+              >طراحی شیءگرا</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/ruby-overview.fa.md"
+              >آشنایی با Ruby</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/raspberry-pi.fa.md"
+              >رزبری پای</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/zigbee.fa.md"
+              >شبکه‌های حسگر زیگبی</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/gyroscopes.fa.md"
+              >فناوری‌های ژیروسکوپ</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/huge-pages.fa.md"
+              >صفحات بزرگ حافظه در لینوکس</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/chess-gnn-review.fa.md"
+              >شبکه‌های عصبی گرافی برای شطرنج</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/ethernet-switching.fa.md"
+              >ارسال فریم در اترنت</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/reza05463/engineering-study-notes/blob/main/notes/android-emulation.fa.md"
+              >شبیه‌ساز اندروید</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p dir="ltr">Reza.Ranjbar · HTML &amp; CSS</p>
+      <a href="first-website/index.html">نسخه اول وب‌سایت</a>
+      <a class="language" href="portfolio.html" lang="en" hreflang="en"
+        >English</a
+      >
+    </footer>
+  </body>
 </html>

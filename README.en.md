@@ -4,6 +4,7 @@
 
 This is an overhaul of my first hand-coded HTML/CSS website. I kept its five-page structure—Home, About, Skills, Portfolio and Contact—along with the navy-and-blue colours, navigation buttons and profile image. Each page has an English and Persian version. The language link opens the matching page in the other language.
 
+The About and Skills pages draw on my interests and university work. I have left unfinished CV fields out of the website.
 
 ## Open the website
 
@@ -37,7 +38,9 @@ To preview locally, open `index.html` or `fa.html` in a browser. There is no Jav
 | `first-website/` | Five early pages, their stylesheet and profile image |
 | `.nojekyll` | Serve the files directly through GitHub Pages |
 
+## My first website
 
+I kept the early Persian text and dark-blue design. The published archive adds a link back to this portfolio, a viewport setting and small mobile navigation adjustments. Its old contact address is replaced with my GitHub profile. The original files on my computer remain unchanged. The archive is a record of my earlier work; it is not my current CV. The screen-recording video is not included.
 
 ## Publish or update
 
@@ -47,6 +50,9 @@ Use my existing repository, **`reza05463.github.io`**. **Reza.Ranjbar** is the d
 2. In **Settings → Pages**, select **Deploy from a branch**, **main**, and **/(root)**.
 3. Save and check the deployment, then check all five pages in both languages and the first-website archive.
 
+## Credits
+
+The Linux huge-pages study was joint work with Mohammadreza Omidian. My chess presentation reviews Saleh Alwer's research; its experimental results belong to the paper's author. MATLAB image-source details are recorded in that project's repository. The Story Library diagram illustrates its relationships; it is not an application screenshot.
 
 ## Editing the code
 
